@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaboodle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="brand-name.png">
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href=""><span class=""></span>
+                    <span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-book-open"></span>
+                    <span>Select Chapter</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-chalkboard-teacher"></span>
+                    <span>My Class</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-user-friends"></span>
+                    <span>Class Forum</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-tasks"></span>
+                    <span>Progress</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-book"></span>
+                    <span>My Diary</span></a>
+                </li>
+                
+            </ul>
+            <img src="tree.png" class="tree">
+        </div>
+    </div>
+
+    <div class="settings-cont">
+        <div class="set">
+            <h1>Settings</h1><br>
+            <div class="notification">
+            <img src="flag.png" width="50" height="50" class="fg">
+            <img src="message.png" width="50" height="50" class="msg">
+            <img src="profile.png" class="pf">
+            <h5 class="name">Akansha Singh</h5>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="profile.png"><br>
+        
+            <div class="change"><h4>Change Picture</h4></div>
+            <div class="info">
+               <form>
+                   <label for="f-name">First Name:</label>
+                   <input type="text" id="f-name" name="f-name">
+                   <label for="l-name">Last Name:</label>
+                   <input type="text" id="l-name" name="-l-name">
+                   <label for="dob">Birthday</label>
+                   <input type="datetime" id="dob" name="dob">
+               </form>
+            </div>
+        </div>
+        
+        <div class="main-set">
+            <form><br><br><br><br><br><br><br><br>
+                <div class="validate">
+                <label for="mobile">MObile No:</label>
+                <input type="number" id="mobile" name="mobile">
+                <img src="error.png" class="wrong"><br>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="mail">
+                <img src="error.png" class="wrong"><br>
+                </div>
+                <label for="old-pwd">Old Password:</label>
+                <input type="password" id="old-pwd" name="old-pwd">
+                <i class="las la-eye-slash" id="togglepassword"></i><br>
+                <label for="new-pwd">New PAssword:</label>
+                <input type="password" id="new-pwd" name="new-pwd">
+                <i class="las la-eye-slash" id="togglepassword"></i><br>
+                <label for="cf-pwd">Confirm Password:</label>
+                <input type="password" id="cf-pwd" name="cf-pwd"><br>
+            </form>
+        </div>
+
+        <div class="final-btn">
+            <button type="button" class="apply">Apply</button>
+            <button type="button" class="cancel" onclick="document.location='dashboard.html'">Cancel</button>
+        </div>
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="validate.js"></script>
+</body>
+</html>
